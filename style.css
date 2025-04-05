@@ -14,10 +14,13 @@ body {
     flex-direction: column;
     gap: 16px;
     align-items: center;
+    
 }
 .header p {
     font-size:48px;
     font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 button {
@@ -37,6 +40,8 @@ button {
 
 
 .board {
+    display: flex;
+    flex-wrap: wrap;
     height: 960px;
     width: 960px;
     background-color: rgb(255, 255, 255);
