@@ -42,8 +42,8 @@ button {
 .board {
     display: flex;
     flex-wrap: wrap;
-    height: 960px;
-    width: 960px;
+    height: 500px;
+    width: 500px;
     background-color: rgb(255, 255, 255);
     border: 8px solid black;
 }
